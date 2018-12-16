@@ -1,0 +1,167 @@
+1:783  0:738  Found BIOS RSDP at F0020
+1:783  0:000  Printing ACPI tables from RSDP F0020 ...
+1:783  0:000   F0020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+1:783  0:000    (Xsdt: A33AD0A0, Rsdt: A33AD028)
+1:783  0:000    A33AD0A0: 'XSDT', 'CBX3   ', Rev: 1, Len: 196
+1:783  0:000    A33AD028: 'RSDT', 'CBX3   ', Rev: 1, Len: 116
+1:783  0:000    Tables in Xsdt: 20
+1:783  0:000    0. A33C3FB8: 'FACP', 'CBX3   ', Rev: 5, Len: 268
+1:783  0:000        (Dsdt: A33AD1F8, Facs: A3CFBF80, XDsdt: A33AD1F8, XFacs: 0)
+1:783  0:000        A33AD1F8: 'DSDT', 'CBX3   ', Rev: 2, Len: 93628
+1:785  0:001        A3CFBF80: 'FACS', Ver: 2, Len: 64
+1:785  0:000    1. A33C40C8: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+1:785  0:000    2. A33C4150: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+1:785  0:000    3. A33C4198: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+1:785  0:000    4. A33C4238: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+1:785  0:000    5. A33C4278: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+1:785  0:000    6. A33C42B0: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+1:785  0:000    7. A33C4670: 'UEFI', '', Rev: 1, Len: 66
+1:785  0:000    8. A33C46B8: 'LPIT', '', Rev: 1, Len: 148
+1:785  0:000    9. A33C4750: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+1:785  0:000    10. A33C53D0: 'ASF!', ' HCG', Rev: 32, Len: 160
+1:785  0:000    11. A33C5470: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+1:785  0:000    12. A33C5498: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+1:785  0:000    13. A33C59B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+1:785  0:000    14. A33C6530: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+1:785  0:000    15. A33C66F8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16571
+1:785  0:000    16. A33CA7B8: 'SLIC', 'CBX3   ', Rev: 3, Len: 374
+1:785  0:000    17. A33CA930: 'MSDM', 'CBX3   ', Rev: 3, Len: 85
+1:785  0:000    18. A33CA988: 'DMAR', 'BDW ', Rev: 1, Len: 176
+1:785  0:000    19. A33CAA38: 'BGRT', '', Rev: 0, Len: 56
+1:785  0:000    Tables in Rsdt: 20
+1:785  0:000    0. A33AD170: 'FACP', 'CBX3   ', Rev: 2, Len: 132
+1:785  0:000        (Dsdt: A33AD1F8, Facs: A3CFBF40)
+1:785  0:000        A33AD1F8: 'DSDT', 'CBX3   ', Rev: 2, Len: 93628
+1:787  0:001        A3CFBF40: 'FACS', Ver: 0, Len: 64
+1:787  0:000    1. A33C40C8: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+1:787  0:000    2. A33C4150: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+1:787  0:000    3. A33C4198: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+1:787  0:000    4. A33C4238: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+1:787  0:000    5. A33C4278: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+1:787  0:000    6. A33C42B0: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+1:787  0:000    7. A33C4670: 'UEFI', '', Rev: 1, Len: 66
+1:787  0:000    8. A33C46B8: 'LPIT', '', Rev: 1, Len: 148
+1:787  0:000    9. A33C4750: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+1:787  0:000    10. A33C53D0: 'ASF!', ' HCG', Rev: 32, Len: 160
+1:787  0:000    11. A33C5470: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+1:787  0:000    12. A33C5498: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+1:787  0:000    13. A33C59B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+1:787  0:000    14. A33C6530: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+1:787  0:000    15. A33C66F8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16571
+1:787  0:000    16. A33CA7B8: 'SLIC', 'CBX3   ', Rev: 3, Len: 374
+1:787  0:000    17. A33CA930: 'MSDM', 'CBX3   ', Rev: 3, Len: 85
+1:787  0:000    18. A33CA988: 'DMAR', 'BDW ', Rev: 1, Len: 176
+1:787  0:000    19. A33CAA38: 'BGRT', '', Rev: 0, Len: 56
+1:787  0:000  Found UEFI Acpi 2.0 RSDP at A33AD000
+1:787  0:000  Saving ACPI tables from RSDP A33AD000 to EFI\CLOVER\ACPI\origin ...
+1:787  0:000   A33AD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+1:868  0:081    (Xsdt: A33AD0A0, Rsdt: A33AD028)
+1:868  0:000    A33AD0A0: 'XSDT', 'CBX3   ', Rev: 1, Len: 196 -> XSDT.aml
+1:941  0:072    A33AD028: 'RSDT', 'CBX3   ', Rev: 1, Len: 116 -> RSDT.aml
+2:019  0:077    Tables in Xsdt: 20
+2:019  0:000    0. A33C3FB8: 'FACP', 'CBX3   ', Rev: 5, Len: 268 -> FACP.aml
+2:030  0:011        (Dsdt: A33AD1F8, Facs: A3CFBF80, XDsdt: A33AD1F8, XFacs: 0)
+2:030  0:000        A33AD1F8: 'DSDT', 'CBX3   ', Rev: 2, Len: 93628 -> DSDT.aml
+2:059  0:029        A3CFBF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+2:072  0:013    1. A33C40C8: 'APIC', 'CBX3   ', Rev: 3, Len: 132 -> APIC.aml
+2:106  0:033    2. A33C4150: 'FPDT', 'CBX3   ', Rev: 1, Len: 68 -> FPDT.aml
+2:140  0:033    3. A33C4198: 'FIDT', 'CBX3   ', Rev: 1, Len: 156 -> FIDT.aml
+2:147  0:007    4. A33C4238: 'MCFG', 'CBX3   ', Rev: 1, Len: 60 -> MCFG.aml
+2:153  0:006    5. A33C4278: 'HPET', 'CBX3   ', Rev: 1, Len: 56 -> HPET.aml
+2:160  0:006    6. A33C42B0: 'SSDT', 'SataTabl', Rev: 1, Len: 957 -> SSDT-0.aml
+2:166  0:006    7. A33C4670: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+2:173  0:006    8. A33C46B8: 'LPIT', '', Rev: 1, Len: 148 -> LPIT.aml
+2:179  0:006    9. A33C4750: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197 -> SSDT-1.aml
+2:191  0:011    10. A33C53D0: 'ASF!', ' HCG', Rev: 32, Len: 160 -> ASF!.aml
+2:198  0:007    11. A33C5470: 'BOOT', 'CBX3    ', Rev: 1, Len: 40 -> BOOT.aml
+2:205  0:007    12. A33C5498: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311 -> SSDT-2.aml
+2:213  0:007    13. A33C59B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+ Found hidden SSDT 4 pcs
+2:213  0:000        * A063AA98: '', 'l', Rev: 73, Len: 1  03 00 00 00 01 00 00 00 49 00 6E 00 74 00 65 00       * A331A618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-4x.aml
+2:220  0:007        * A331AC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 AE 50 6D 52 65 66 00 Internal length = 979 -> SSDT-5x.aml
+2:227  0:007        * A3369C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-6x.aml
+2:234  0:007   -> SSDT-3.aml
+2:242  0:007    14. A33C6530: 'SSDT', 'LakeTiny', Rev: 2, Len: 455 -> SSDT-7.aml
+2:249  0:007    15. A33C66F8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16571 -> SSDT-8.aml
+2:280  0:030    16. A33CA7B8: 'SLIC', 'CBX3   ', Rev: 3, Len: 374 -> SLIC.aml
+2:287  0:007    17. A33CA930: 'MSDM', 'CBX3   ', Rev: 3, Len: 85 -> MSDM.aml
+2:295  0:007    18. A33CA988: 'DMAR', 'BDW ', Rev: 1, Len: 176 -> DMAR.aml
+2:327  0:032    19. A33CAA38: 'BGRT', '', Rev: 0, Len: 56 -> BGRT.aml
+2:338  0:010    Tables in Rsdt: 20
+2:338  0:000    0. A33AD170: 'FACP', 'CBX3   ', Rev: 2, Len: 132 -> RSDT-FACP.aml
+2:346  0:008        (Dsdt: A33AD1F8, Facs: A3CFBF40)
+2:346  0:000        A33AD1F8: 'DSDT', 'CBX3   ', Rev: 2, Len: 93628
+2:348  0:001        A3CFBF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+2:355  0:007    1. A33C40C8: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+2:355  0:000    2. A33C4150: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+2:355  0:000    3. A33C4198: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+2:355  0:000    4. A33C4238: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+2:355  0:000    5. A33C4278: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+2:355  0:000    6. A33C42B0: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+2:355  0:000    7. A33C4670: 'UEFI', '', Rev: 1, Len: 66
+2:355  0:000    8. A33C46B8: 'LPIT', '', Rev: 1, Len: 148
+2:355  0:000    9. A33C4750: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+2:355  0:000    10. A33C53D0: 'ASF!', ' HCG', Rev: 32, Len: 160
+2:355  0:000    11. A33C5470: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+2:355  0:000    12. A33C5498: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+2:355  0:000    13. A33C59B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+2:355  0:000    14. A33C6530: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+2:355  0:000    15. A33C66F8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16571
+2:355  0:000    16. A33CA7B8: 'SLIC', 'CBX3   ', Rev: 3, Len: 374
+2:355  0:000    17. A33CA930: 'MSDM', 'CBX3   ', Rev: 3, Len: 85
+2:355  0:000    18. A33CA988: 'DMAR', 'BDW ', Rev: 1, Len: 176
+2:355  0:000    19. A33CAA38: 'BGRT', '', Rev: 0, Len: 56
+2:355  0:000  Found UEFI Acpi 1.0 RSDP at A33AD000
+2:355  0:000  Printing ACPI tables from RSDP A33AD000 ...
+2:355  0:000   A33AD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+2:355  0:000    (Xsdt: A33AD0A0, Rsdt: A33AD028)
+2:355  0:000    A33AD0A0: 'XSDT', 'CBX3   ', Rev: 1, Len: 196
+2:355  0:000    A33AD028: 'RSDT', 'CBX3   ', Rev: 1, Len: 116
+2:355  0:000    Tables in Xsdt: 20
+2:355  0:000    0. A33C3FB8: 'FACP', 'CBX3   ', Rev: 5, Len: 268
+2:355  0:000        (Dsdt: A33AD1F8, Facs: A3CFBF80, XDsdt: A33AD1F8, XFacs: 0)
+2:355  0:000        A33AD1F8: 'DSDT', 'CBX3   ', Rev: 2, Len: 93628
+2:357  0:001        A3CFBF80: 'FACS', Ver: 2, Len: 64
+2:357  0:000    1. A33C40C8: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+2:357  0:000    2. A33C4150: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+2:357  0:000    3. A33C4198: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+2:357  0:000    4. A33C4238: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+2:357  0:000    5. A33C4278: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+2:357  0:000    6. A33C42B0: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+2:357  0:000    7. A33C4670: 'UEFI', '', Rev: 1, Len: 66
+2:357  0:000    8. A33C46B8: 'LPIT', '', Rev: 1, Len: 148
+2:357  0:000    9. A33C4750: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+2:357  0:000    10. A33C53D0: 'ASF!', ' HCG', Rev: 32, Len: 160
+2:357  0:000    11. A33C5470: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+2:357  0:000    12. A33C5498: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+2:357  0:000    13. A33C59B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+2:357  0:000    14. A33C6530: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+2:357  0:000    15. A33C66F8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16571
+2:357  0:000    16. A33CA7B8: 'SLIC', 'CBX3   ', Rev: 3, Len: 374
+2:357  0:000    17. A33CA930: 'MSDM', 'CBX3   ', Rev: 3, Len: 85
+2:357  0:000    18. A33CA988: 'DMAR', 'BDW ', Rev: 1, Len: 176
+2:357  0:000    19. A33CAA38: 'BGRT', '', Rev: 0, Len: 56
+2:357  0:000    Tables in Rsdt: 20
+2:357  0:000    0. A33AD170: 'FACP', 'CBX3   ', Rev: 2, Len: 132
+2:357  0:000        (Dsdt: A33AD1F8, Facs: A3CFBF40)
+2:357  0:000        A33AD1F8: 'DSDT', 'CBX3   ', Rev: 2, Len: 93628
+2:359  0:001        A3CFBF40: 'FACS', Ver: 0, Len: 64
+2:359  0:000    1. A33C40C8: 'APIC', 'CBX3   ', Rev: 3, Len: 132
+2:359  0:000    2. A33C4150: 'FPDT', 'CBX3   ', Rev: 1, Len: 68
+2:359  0:000    3. A33C4198: 'FIDT', 'CBX3   ', Rev: 1, Len: 156
+2:359  0:000    4. A33C4238: 'MCFG', 'CBX3   ', Rev: 1, Len: 60
+2:359  0:000    5. A33C4278: 'HPET', 'CBX3   ', Rev: 1, Len: 56
+2:359  0:000    6. A33C42B0: 'SSDT', 'SataTabl', Rev: 1, Len: 957
+2:359  0:000    7. A33C4670: 'UEFI', '', Rev: 1, Len: 66
+2:359  0:000    8. A33C46B8: 'LPIT', '', Rev: 1, Len: 148
+2:359  0:000    9. A33C4750: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+2:359  0:000    10. A33C53D0: 'ASF!', ' HCG', Rev: 32, Len: 160
+2:359  0:000    11. A33C5470: 'BOOT', 'CBX3    ', Rev: 1, Len: 40
+2:359  0:000    12. A33C5498: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1311
+2:359  0:000    13. A33C59B8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+2:359  0:000    14. A33C6530: 'SSDT', 'LakeTiny', Rev: 2, Len: 455
+2:359  0:000    15. A33C66F8: 'SSDT', 'SaSsdt ', Rev: 2, Len: 16571
+2:359  0:000    16. A33CA7B8: 'SLIC', 'CBX3   ', Rev: 3, Len: 374
+2:359  0:000    17. A33CA930: 'MSDM', 'CBX3   ', Rev: 3, Len: 85
+2:359  0:000    18. A33CA988: 'DMAR', 'BDW ', Rev: 1, Len: 176
+2:359  0:000    19. A33CAA38: 'BGRT', '', Rev: 0, Len: 56
