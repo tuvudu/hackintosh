@@ -1,0 +1,23 @@
+- Device Manager:
+  - Motherboard: Dell inspiron 3467
+  - CPU: i5 7200U
+  - GPU: onbard intel HD graphic 620
+  - Sound: Realtek ALC256
+  - Wifi: AC3160
+  - Ethernet: Realtek R106e
+- Status Device working:
+  - CPU: ok
+  - GPU: ok
+  - Sound: ok 
+  - USB: ok
+  - Card reader: updating
+  - Wifi: not working
+  - Ethernet: ok
+  - Bluetooth: ok
+  - Brightness: ok
+  - Performance: updating
+- Install:
+  - Copy EFI to use USB install or update kext.
+  - After install, if audio output on jack 3.5 notworking, open config.plist, Audio on Devices tab. Change type="String", value="13" 
+    and install "install Double-click to automatically install.command" on ALCPlugFix folder.
+  - Your device can't show the brightness scale bar on display setting. you need run `sudo kextcache -i /` to update kext.
